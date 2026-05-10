@@ -1,0 +1,11 @@
+zkforge:
+  device_id: 0
+  field: bn254
+
+prover:
+  system: groth16
+  batch_size: 1024
+
+gpu:
+  ntt_threads: 256
+  msm_window_bits: 16
